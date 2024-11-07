@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class Car {
+        constructor(name, model, color) {
+          this.name = name;
+          this.model = model;
+          this.color = color;
+        }
+        getInfo() {
+          return (a = ",bmw");
+        }
+      }
+
+      var a = new Car("bmw", "343", "red");
+
+      document.write(a.name + "," + a.model + "," + a.color);
+
+      document.write(a.getInfo());
+    </script>
+  </body>
+</html>
